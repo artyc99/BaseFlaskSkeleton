@@ -1,7 +1,10 @@
+from app import FlaskApplication
 
 
 def main():
-    print('Hell')
+    app = FlaskApplication()
+
+    app.run()
 
 
 if __name__ == '__main__':
